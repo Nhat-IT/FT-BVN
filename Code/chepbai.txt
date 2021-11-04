@@ -1,0 +1,415 @@
+tao file:
+- index.html => web server => tự nhận file index.html làm file gốc
+
+white space:
+- dau cach(space)
+- tab
+- new line (xuống dòng) -> là 1 kí tự
+
+=> html => white space => bo quan
+
+Cấu trúc của trang html:
+- doctype: loại tài liệu: <!DOCTYPE html>
+- html:
+    - head: đầu
+        + title: Tiêu đề
+        + meta:
+        + link:
+    - body: thân
+        + div:
+            + tạo ra 1 vùng trên trang web
+            + chứa các thẻ khác
+        + p: đoạn văn (paragraph)
+        + h (h1->h6) heading
+        + ul => unorder list
+        + ol => order list
+        + li => phần tử danh sách
+        + img : image - hình ảnh
+        + br : break => xuống hàng
+        + span: thẻ đánh dấu => dùng để viết css
+            => Không có ý nghĩa kết thúc
+        + a: liên kết: click vào => chạy đến trang khác
+
+        + header
+        + section
+        + sidebar
+        + footer
+        => giống thẻ div => tạo 1 vùng trên trang web
+
+        + super:
+
+        form: ô nhập dữ liệu
+            + input
+                + text: ô nhập chữ
+                + password
+                + email
+                + button
+                + submit: gửi dữ liệu đi
+                + reset: xóa dữ liệu của form
+                + checkbox
+                + radio
+                + number
+                + color
+            +select:
+                + option
+            + label:
+                nhan
+
+Phân chia:
+    + Thẻ hiển thị nội dung: p, h, li, img, a
+    + Thẻ dùng để bao bọc: div, section, header, footer, form => thẻ giao diện
+
+=> thẻ giao diện chứa các thẻ nội dung
+=> thẻ giao diện => không được nằm trong thẻ nội dung
+
++ Block và inline:
+    + Block: Dạng khối: mình nó nằm trên 1 dòng
+        + div, p, h, form, ul, li, ol
+
+    + Inline: Trên dòng: nằm cùng dòng với các thể  khác
+        + còn lại: button, input, select, span, anh
+
+=> thành phần block => không thể nằm trong thành phần inline
+
+
+Bài tập:
+Tạo một trang mới html => viết hết tất cả thẻ đã học =>
+-------------------------------------------HẾT BÀI 1---------------------------------------------------------
+CSS:
+
+
++ Box model: mô hình hộp
+Tất cả các element (thành phần)(thẻ) => hình chữ nhật
+
++nội dung
++padding: khoảng cách giữa nội dung và đường viền
++padding: khoảng cách giữa nội dung và đường viền (phía trong)
+    + padding-left;
+    + padding-right:
+    + padding-top:
+    + padding-bottom:
++border: đường viền
++margin: khoảng cách giữa element và các element xung quanh
+	+ margin-left:
+	+ margin-right:
+	+ margin-top:
+	+ margib-bottom:
++ Tổng không gian chiếm chỗ:
+	= noi dung + padding + border width + margin
+
+Chrome developer tools: f12
++computed:
+	Viet css: tính toán hết các thuộc tính của element
+	
++Selector: Bộ chọn
+
++Chọn bằng tên thẻ
++Chọn bằng id
+    + Định danh
+    #[ten id]
+    + id: chỉ dùng 1 element duy nhất
++Chọn bằng class:
+    + Giống như id
+    + Dùng cho nhiều element
+    dấu .
+    + Một element có thể có nhiều class
+
++ Chọn thành phần nhỏ hơn:
+    + Sử dụng dấu cách
++ Chọn thành phần con (trực tiếp): >
++ Chọn tổng hợp nhiều điều kiện
+    + Viết liền các điều kiện
++ Chọn nhiều thành phần:
+    + dấu phẩy
++Chon them attribute
+	dau[ten thuoc tinh = gia tri]
++Chọn phần tử đầu tiên
+	selector:first-child
++Chọn phần tử cuối cùng
+	selector:last-child
++Chọn phần tử theo thứ tự
+	+ :nth-child(n)
+	+ :nth-child(odd) => số lẻ
+	+ :nth-child(event) => số chẵn
+	+ sử dụng tham số n:
+	     vd:+ 3 cái thì có 1 cái đỏ
+		    + 3 cái thì co 1 cái đỏ => bat dau 2
+                2-5-8-11 
+Chọn tất cả: *
+
+not() không phải
+is()
+
++ reset css:
+Moi trinh duyet => co nhung gia tri mac dinh khac nhau
+
+Dinh nghia ra nhung kich thuoc tinh => tat ca cac trinh duyet tro ve trang thai giong nhau
+
+margin: 0; => Tat ca cac element => xep sat nhau
+padding: 0; =>Tat ca cac element
+
++ 6 thuoc tinh quan trong nhat cua css 
+    (anh huong den kich thuoc element):
+
+	+padding: 4 hướng
+        + viết 1 giá trị: 4 hướng
+        + viết 2 giá trị: (trên - dưới) - (trái - phải)
+        + viết 4 giá trị: trên phải dưới trái
+        + padding-left: trái
+        + padding-right:
+        + padding-bottom
+        + padding-top    
+    +margin
+	+border-width
+    +width: chiều rộng
+	+height: chiều cao
+	+box-sizing:
+        + Định nghĩa chiều rộng và chiều cao => tính từ đâu?
+            + border-box
+                + Chiều rộng tính từ border trở vào
+                    width = border + padding + nội dung
+            + connent-box: width => chiều rộng nội dung
+-------------------------------------------HẾT BÀI 2---------------------------------------------------------
+Các đơn vị: px, %
+Mặc định: trên xuống dưới, trái qua phải
++Alignment:
+    + block: 
+        +căn trái => mặc định (margin-right: auto)
+        +căn phải: margin-left: auto
+        +căn giữa:
+    + inline:
+        + xếp trên 1 hàng => giống như text
+        + text-align: cho thành phần cha
+
++ Đặt dạng hiển thị: display:
++ Block, inline, inline-block:
+
++ Block:
+    + Có thể đặt chiều rộng, chiều cao cho nó
++ Inline element:
+    + Không thể đặt chiều rộng, chiều cao
+    + Được đối xử như text
+    + Chiều rộng bằng nội dung bên trong
++ Inline-block:
+    + Giống inline
+    + Xếp trên 1 hàng
+    + Đặt được chiều rộng, chiều cao
+
++ Border:
+    + Viết tắt: [rộng] [kiểu border] [màu viền]
+    + border-width:
+    + border-style:
+    + border-color:
+
+    border-top: [rộng] [kiểu border] [màu viền]
++ max-width:
++ max-height:
+
+==================
+Flex:
++ Thành phần cha:
+    + Đặt thuộc tính display cho cha: display:flex;
+    + Sắp xếp các thành phần con => theo cấu trúc (main) => ngang
+    + flex-direction;
+        - Xác định trục chính theo hướng nào
+        + column: cột => trục main => trên xuống dưới
+        + row-reverse
+        + column-reverse
+    + justify-content:
+        + cách sắp xếp các thành phần con => theo 1 trục (main)
+        + flex-start: xếp ở đầu trục
+        + flex-end: xếp ở cuối trục
+        + center: xếp ở giữa
+        + space-between: có khoảng cách ở giữa
+        + space-around: có khoảng cách ở xung quanh
+    +align-items:
+        + sắp xếp các thành phần con cross
+
+    + flex-wrap: bao bọc
+        + xuống hàng hay không
+
++ Các thành phần con:
+    + flex-grow: [1 con số]
+        + Tỉ lệ chia phần thừa còn lại trong thành phần cha
+        + Theo chiều trục main
+    + flex-shrink:[1 con số]
+    + flex-basis: Kích thước theo trục main
+        + Chính là width khi trục main nằm ngang
+        + Chính là height khi trục main nằm dọc
+    + order 
+-------------------------------------------HẾT BÀI 3---------------------------------------------------------
++ Dùng flex để làm gì?
+    + dãn trang
+    + dãn trang flex => chưa an toàn
+    + float, clear
+
++ Float: 
+    + Tất cả các element đều trồi lên phía trên, bên trái
+    + float: element sẽ trồi lên sang bên trái hoặc phải
+    + Nên: 1 cái float trái, 1 cái float phải
+
++ Vấn đề của float:
+    + Khi float một thành phần  => thằng cha => không tính toán được chiều cao
+
++ Chia 3 cột:
+    + float: left hết
+
++ Clear:
+    + Chặn không cho các thành phần bên dưới trồi lên phần thừa
+    + both: cả hai ( cả bên trái và bên phải)
+    + left: clear bên trái
+    + right: clear bên phải
+
++ Nếu phía trước mà có thành phần đang float => clear đi => nằm riêng 1 dòng => clear both:
+
++ Clearfix:
++ presudo element:
+
++ Text và các thuộc tính của text:
++ Chữ: hình ảnh => lấy từ font
++ Dòng chữ: là các hình chữ nhật được sắp xếp liền nhau theo chiều dọc
++ Chữ cái => xếp nằm giữa dòng chữ theo chiều dọc
++ Line-height: độ cao dòng: chiều cao dòng chữ
++ Font-size: dộ cao chữ cái
++ Letter-spacing: khoảng cách giữa 2 chữ cái
++ Word-spacing: Khoảng cách giữa 2 từ (dấu cách)
++ Text-transform: uppercase-lowercase
++ Text-indent: căn lề
+    + Text-indent: -1000000px
++ Text-align: căn lề chữ (left/right/center)
+
+
+=> để căn giữa chữ trong một element:
+    Đặt: height = line-height => hiển thị chính xác 1 dòng chữ
+    -------------------------------------------HẾT BÀI 4---------------------------------------------------------
++ Làm khung giao diện hoàn chỉnh:
+    + Đừng vội làm giao diện màu mè
+    + Học cách đặt tên div, id, class
+
+Trước thứ 6:
+    bài tập: tìm 1 giao diện trang web và dàn trang
+    + Tạo các khối
+    -------------------------------------------HẾT BÀI 5---------------------------------------------------------
+Background:
+Màu nền => ảnh nền
+
+-background-color: màu nền;
+    + RGB: #aabbcc
+    + RGBA: red-green-blue-alpha
+-background-image: ảnh nền
+    + Có màu nền => vẫn nên có màu nền
+-backround-repeat
+-backround-position
+-backround-size
++Nhieu background:
+
++border-radius:
+    + bo góc:
+-------------------------------------------HẾT BÀI 6---------------------------------------------------------
++ position:
+    + Vị trí:
+    + fixed: cố định so với body
+        + left, right, top, bottom, left
+    + sticky:
+    + relative và absolute
+        (cặp đôi huyền thoại)
+    + Cha: relative - con: absolute
+        + absolute: giống như fixed, vị trí tuyệt đối
+        so với: thành phần gần nhất có position: relative
+    + Thành phần con: vượt qua bên ngoài thành phần chưa
+    + left, top, bottom, right
+
+Border: 
+overflow:
+    + Định dạng khi vượt quá kích thước
+outline:
+    đường viền => mặc định trình duyệt => nằm ngoài border
+    + Cùng 1 lúc => chỉ xử lí 1 thành phần
+
+Ẩn 1 thành phần trên trang web:
+    display: none; => biến mất
+    visibility: hidden; => biến mất => chiếm chổ
+    opacity: 0; => trong suốt => vẫn còn => click được
+    
+Hình ảnh trên trang web:
+Các loại hình ảnh:
+	+ jpg: ảnh chụp
+		+ ảnh chụp, phong cảnh  
+    		+ không hỗ trợ trong suốt
+    	+ png:
+    		+ phù hợp các ảnh logo, vẽ bằng các phần mềm đồ họa
+    		+ có vùng màu riêng biệt
+    		+ hỗ trợ trong suốt
+    	+ gif:
+    		+ hỗ trợ trong suốt (kém)
+    			+ bị răng cưa
+    		+ nhẹ hơn png
+    		+ ít màu hơn
+    		+ hỗ trợ ảnh động
+    	+ webp:
+    		+ nhẹ hơn
+    		+ trong suốt
+        	+ không phải mọi trình duyệt đều hỗ trợ
+	+ bmp: bitmap
+		+nặng
+		+ trong suốt
+		
+presudo class: (state)
+là class đặc biệt => khi 1 element ở một trạng thái
+cụ thể nào đó
+	:hover => di chuột qua
+	:focus
+	:last-child, first-child, :not()
+	:checked (input checkbox)
+	:disabled
+	
+	the link: a
+		:link
+		:active => trang hiên tại = link
+		:visited => đã xem trang này chưa?
+-------------------------------------------HẾT BÀI 7---------------------------------------------------------		
+preudo element:    
+
+::before
+::after
+::first-letter chữ cái đầu tiên
+::marker: list
+
+Font:
+- là một loạt các ảnh => lưu file font
+font-family: [danh sách các font], sans-serif;
+sans-serif: là font mặc định
+
++ Font trên máy:
+    + Tốc độ nhanh
+    + Không chắc trên máy người dùng có font đó
+    + website nghệ thuật
++ Font trên mạng (online): web font:
+    + Tải về: chậm
+    + Đẹp
+    + Chắc chắn sẽ có font
+    + Nặng thêm 
+font-face: định nghĩa 1 font
+
++ icon font:
+    + sử dụng font => lưu các ảnh
+    + font awesome
+    + Gõ chữ a => hiện hình chữ a
+        => vẽ hình người
+
+
+font-weight: độ đậm của font
+    + normal: bình thường = 400
+    + bold: đậm = 700
+    + con số:
+
+font-size:
+kích thước (đơn vị đo trong css)
++ px: pixel: 1 điểm ảnh
++ em: chính bằng font size
+    + 2 em => 2 lần font size
++ rem => root em => font size cua root
++ pt: point: 1/72 inch
++ mm:
++ cm: 
+-------------------------------------------HẾT BÀI 8---------------------------------------------------------	

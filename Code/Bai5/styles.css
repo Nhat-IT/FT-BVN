@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 55px;
+    border: 2px solid #dcdcdc;
+}
+
+.container{
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.left-nav{
+    float: left;
+    display: flex;
+}
+
+#home{
+    padding-top: 10px;
+    margin-right: 25px;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list-item{
+    padding-top: 17px;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.nav-list-item:last-child{
+    margin-right: 0px;
+}
+
+.nav-list-item > a{
+    text-decoration: none;
+}
+
+.right-nav{
+    margin: 15px 0 0 0;
+    display: flex;
+    float: right;
+}
+
+.right-nav-item{
+    margin-left: 10px;
+}
+
+#but-home{
+    height: 25px;
+    width: 25px;
+}
+
+#but-cloud{
+    height: 25px;
+    width: 25px;
+}
+
+.container:last-child{
+    display: block;
+    content: ' ';
+    clear: both;
+}
+/*end header*/
+#popular{
+    width: 965px;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+
+#popular img{
+    width: 100%;
+}
+/* end popular*/
+#main::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.trend{
+    margin-top: 45px;
+}
+
+.heading{
+    margin: 5px 0px 5px 0px;
+    text-transform: uppercase;
+}
+
+.heading > a{
+    text-decoration: none;
+    color: #58b2ee;
+}
+
+.block-trend{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.song{
+    width: 17%;
+    margin-right: 20px;
+}
+
+.song:last-child{
+    margin-right: 0px;
+}
+
+.song a{
+    text-decoration: none;
+}
+
+.song a img{
+    max-width: 100%;
+}
+
+.content{
+    width: 840px;
+    float: left;
+    border: 1px solid red;
+}
+
+
+
+.sidebar{
+    width: 300px;
+    float: right;
+    border: 1px solid red;
+}
+/* end trend & new release */
+
+.mvHot{
+    margin-top: 45px;
+}
+
+.block-mvHot{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.song2{
+    margin-right: 19px;
+    width: 22%;
+}
+
+.song2:nth-child(1), .song2:nth-child(2){
+    margin-right: 19px;
+    width: 46.3%;
+}
+
+.song2:nth-child(1) > p, .song2:nth-child(2) > p{
+    margin-bottom: 10px;
+}
+
+.song2 img{
+    width: 100%;
+}
+

@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 70px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+li{
+    list-style: none;
+    border-bottom: 1px solid darkcyan;
+}
+
+ul{
+    background-color: darkkhaki;
+    width: 400px;
+}
+
+a::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    border: 15px solid red;
+    height: 0px;
+    width: 0px;
+    border-color: rgb(18, 212, 92) transparent transparent transparent;
+}
+
+@font-face{
+    font-family: BayBuom;
+    src: url(./Vbutlong.ttf);
+    font-weight: bold;
+}
+p{
+    font-family: BayBuom;
+    font-size: 30px;
+}
