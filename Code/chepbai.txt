@@ -412,4 +412,67 @@ kích thước (đơn vị đo trong css)
 + pt: point: 1/72 inch
 + mm:
 + cm: 
--------------------------------------------HẾT BÀI 8---------------------------------------------------------	
+-------------------------------------------HẾT BÀI 8---------------------------------------------------------
+
++ Shadow: bóng đổ
+    + box-shadow: bóng đổ của box
+    + text-shadow: bóng đổ của text
+
++ thuộc tính shadow => không ảnh hưởng đến kích thước
+không ảnh hưởng đến khoảng không gian chiếm chỗ
++ Làm mềm chữ
+
++ Transition:
++ là chuyển tiếp giữa 2 trạng thái
+    + Transition: [ten thuoc tinh] [thoi gian] [timing function]
+    + transtion-property:
+        + tất cả các thuộc tính bằng số
+            + width, height, padding, margin, border-width
+            + color, font-size, left, top,..
+            + color: số
+            + all
+    + transition-duration:
+    + transition-timing-function
+
++ Transition: ảnh hưởng đến kích thước
+
++ Tất cả các thuộc tính css:
+    + initial: mặc định
+    + inherit: then thằng cha
+
++ Áp dụng những gì chúng ta đã học:
+    + Làm mobile menu:
+
+Trick:
+    + Cần style cho 1 element cao 100%:
+        + html,body: height 100%
+        body => chiều cao tự động
+
+Menu đã cấp: transition
+
++ media query: responsive
+
+@media screen and (điều kiện)
+
+@media print and (điều kiện)
+
++ Break point:
+    + là những điểm: thay đổi cách hiển thị
+    + > 1200px => màn hình extra large
+    + > 960px => màn hình lớn
+    + > 768px => màn hình trung bình
+    + < 768px => màn hình nhỏ
+
+mobile first:
+    + code cho màn hình moblie trước
+    + từ nhỏ => to
+    + bootstrap => mobile first
+
+desktop first:
+    + code cho màn hình to
+    => nhỏ dần
+
++ object-fit: định nghĩa hình ảnh của thẻ img
+
+Biến:
+-------------------------------------------HẾT BÀI 9---------------------------------------------------------
