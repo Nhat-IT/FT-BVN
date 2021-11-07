@@ -476,3 +476,25 @@ desktop first:
 
 Biến:
 -------------------------------------------HẾT BÀI 9---------------------------------------------------------
+
+- psd to html:
+    + Lo lắng: phần css học chưa kĩ
+
+psd => photoshop document
+
++ Trong thực tế: photoshop, figma, corel, indesign
++ Sử dụng được photoshop cơ bản:
+
++ mở file: ctrl + o
++ zoom: ctrl + (+/-)
++ di chuyển: giữ phím cách, cầm và kéo chuột
++ chuột phải và thanh thước: chọn pixel
++ tab:
++ đường guide: đường chỉ dẫn
+    + ctrl + ;
++ Layer: lớp
++ gradient: chuyển mẫu
+
++ Lấy hình ảnh:
+    + smart object: là một object => có thể chứa nhiều layer
+-------------------------------------------HẾT BÀI 10---------------------------------------------------------
