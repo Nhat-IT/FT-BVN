@@ -44,61 +44,65 @@
     <section id="jumbotron">
         <div>
             <div class="container">
-                <h1>welcome to our markerplace</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
-                    non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
-                <div>
-                    <a href="#">view more</a>
-                    <a href="#">video tour</a>
+                <div class="info">
+                    <h1>welcome to our markerplace</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
+                        non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
+                    <div>
+                        <a href="#">view more</a>
+                        <a href="#">video tour</a>
+                    </div>
                 </div>
-                <div>
-                    <div></div>
-                    <div class="active"></div>
-                    <div></div>
+                <div class="dots">
+                    <a href="#jumbotron">1</a>
+                    <a href="#jumbotron" class="active">2</a>
+                    <a href="#jumbotron">3</a>
                 </div>    
             </div>
         </div>
     </section>
-    <section id="about">
-        <h2>we are modest</h2>
-        <div>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus sed molestie gravida. Crferm entum  quismagna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis lacusullamcorper at.</p> 
-                <p>Phasellus sollicitudin ante eros ornare, sit amet luctus lorem semper. Suspendisse posuere, quamdictum consectetur, augue metus pharetra tellus, eu feugiatloreg egetnisi. Cras ornare bibendum ante, ut bibendum odio convallis eget. vel sodales arcu vestibulum</p>
-                <ul>
-                    <li><a href="#">Our facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Google</a></li>
-                    <li><a href="#">Dribbble</a></li>
-                    <li><a href="#">Behance</a></li>
+    <section class="about-section">
+        <div class="container">
+            <h2>we are modest.</h2>
+            <div id="about">
+                <div id="left-about">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus sed molestie gravida. Crferm entum  quismagna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis lacusullamcorper at.</p> 
+                    <p>Phasellus sollicitudin ante eros ornare, sit amet luctus lorem semper. Suspendisse posuere, quamdictum consectetur, augue metus pharetra tellus, eu feugiatloreg egetnisi. Cras ornare bibendum ante, ut bibendum odio convallis eget. vel sodales arcu vestibulum</p>
+                    <ul>
+                        <li><a href="#">Our facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Google</a></li>
+                        <li><a href="#">Dribbble</a></li>
+                        <li><a href="#">Behance</a></li>
+                    </ul>
+                </div>
+                <ul id="right-about">
+                    <li>
+                        <h3>Dedication to the customers</h3>
+                        <p>Integer vel lacus non dui ullamcorper venenatis. Aliquam vitae tristique nisi, vitae ullamcorper risus.</p>
+                    </li>
+                    <li>
+                        <h3>Working closely with our clients</h3>
+                        <p>Sed blandit nisi urna, sed pellentesque enim consectetur vitae. Suspendisse ut vehicula nibh.</p>
+                    </li>
+                    <li>
+                        <h3>Increase happiness</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend laoreet euismod.</p>
+                    </li>
                 </ul>
             </div>
         </div>
-        <ul>
-            <li>
-                <h2>Dedication to the customers</h2>
-                <p>Integer vel lacus non dui ullamcorper venenatis. Aliquam vitae tristique nisi, vitae ullamcorper risus.</p>
-            </li>
-            <li>
-                <h2>Working closely with our clients</h2>
-                <p>Sed blandit nisi urna, sed pellentesque enim consectetur vitae. Suspendisse ut vehicula nibh.</p>
-            </li>
-            <li>
-                <h2>Increase happiness</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend laoreet euismod.</p>
-            </li>
-        </ul>
     </section>
     <section class="container">
         <h2>Meet the team</h2>
-        <div>
-            <div>
+        <div id = "partners">
+            <div class="person">
                 <img src="./partner/partner1.jpg" alt="partner-Groria-bromley">
-                <div>
+                <div class="person-info">
                     <p>Groria Bromley</p>
                     <p>CEO and Founder</p>
                 </div>
-                <div>
+                <div class="social-links">
                     <ul>
                         <li><a href="#">Groria Bromley Facebook</a></li>
                         <li><a href="#">Groria Bromley Twitter</a></li>
@@ -106,13 +110,13 @@
                     </ul>
                 </div>
             </div>
-            <div>
+            <div class="person">
                 <img src="./partner/partner2.jpg" alt="partner-Paul-toress">
-                <div>
+                <div class="person-info">
                     <p>Paul Toress</p>
                     <p>Head of Development</p>
                 </div>
-                <div>
+                <div class="social-links">
                     <ul>
                         <li><a href="#">Paul Toress Facebook</a></li>
                         <li><a href="#">Paul Toress Twitter</a></li>
@@ -120,13 +124,13 @@
                     </ul>
                 </div>
             </div>
-            <div>
+            <div class="person">
                 <img src="./partner/partner3.jpg" alt="partner-Judith gillette">
-                <div>
+                <div class="person-info">
                     <p>Judith Gillette</p>
                     <p>Graphics desinger</p>
                 </div>
-                <div>
+                <div class="social-links">
                     <ul>
                         <li><a href="#">Judith Gillette Facebook</a></li>
                         <li><a href="#">Judith Gillette Twitter</a></li>
@@ -134,13 +138,13 @@
                     </ul>
                 </div>
             </div>
-            <div>
+            <div class="person">
                 <img src="./partner/partner4.jpg" alt="partner-Delores reed">
-                <div>
+                <div class="person-info">
                     <p>Delores Reed</p>
                     <p>Client Service Director</p>
                 </div>
-                <div>
+                <div class="social-links">
                     <ul>
                         <li><a href="#">Delores Reed Facebook</a></li>
                         <li><a href="#">Delores Reed Twitter</a></li>
