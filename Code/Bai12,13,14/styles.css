@@ -91,6 +91,7 @@ header ul li a:active{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding-bottom: 0px !important;
 }
 
 #jumbotron .container{
@@ -174,6 +175,7 @@ header ul li a:active{
 }
 
 /* about */
+
 #about{
     display: flex;
     justify-content: space-between;
@@ -283,7 +285,15 @@ header ul li a:active{
     border-bottom: 1px solid #dde1e4;
 }
 
+.about-section h2{
+    margin-top: 0px;
+}
+
 /* meet a team */
+#teams h2{
+    margin-top: 0px !important;
+}
+
 #partners{
     display: flex;
     justify-content: space-between;
