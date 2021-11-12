@@ -484,7 +484,6 @@ psd => photoshop document
 
 + Trong thực tế: photoshop, figma, corel, indesign
 + Sử dụng được photoshop cơ bản:
-
 + mở file: ctrl + o
 + zoom: ctrl + (+/-)
 + di chuyển: giữ phím cách, cầm và kéo chuột
@@ -494,9 +493,75 @@ psd => photoshop document
     + ctrl + ;
 + Layer: lớp
 + gradient: chuyển mẫu
-
 + Lấy hình ảnh:
     + smart object: là một object => có thể chứa nhiều layer
+    + trim: loại bỏ vùng trong suốt xung quanh
 -------------------------------------------HẾT BÀI 10---------------------------------------------------------
 - Thiết kế giao diện theo login_form.psd
 -------------------------------------------HẾT BÀI 11,12,13---------------------------------------------------------
+Bootstrap
+- css framework
+- mobile first
+
+- Cai dat bootstrap:
+    + 2 kiểu cài đặt:
+        + nhúng file css, js vào
+        + webpack (compiler)
+
++ Grid system:
+
+container/container-fluid => row => col
+
+row: 12 cột
+col-{số} => tất cả các màn hình
+col-2
+
+col-{loại màn hình}-{số}
+col-md-4
+
+xl: extra large: rất lơn
+lg: large: màn hình lớn
+md: medium: màn hình trung bình
+sm: small => màn hình nhỏ
+xs: extra small => màn hình rất nhỏ
+
+
+row-col => định nghĩa ra 1 row => có các cột bằng nhau
+row-cols-{so} => chia ra {số} cột
+row-cols-sm-{số} =>
+
+offset
+flex: d-flex => display flex
+justify-content-between
+
+margin:
++ Quy định sẵn => designer =>
+    m-{số} => số 1 -> 5
+    mx-{số} => margin ngang
+    my-{số} => margin dọc
+    m-{màn hình}-{số}
+    mt-4
+    mr-4
+    ml-3
+    mb-2
+
+padding:
+    p-{số} => p-2
+    px
+    py
+    pl-md-3
+    pr-2
+    pb-3
+
+order-first
+order-last
+
+Định dạng text:
+    + text-center => căn giữa text
+    + text-uppercase
+    + text-lowercase
+    + text-justify
+
+
+Buoi hom sau:
+    + npm => cai dat npm
