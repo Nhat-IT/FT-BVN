@@ -498,7 +498,7 @@ psd => photoshop document
     + trim: loại bỏ vùng trong suốt xung quanh
 -------------------------------------------HẾT BÀI 10---------------------------------------------------------
 - Thiết kế giao diện theo login_form.psd
--------------------------------------------HẾT BÀI 11,12,13---------------------------------------------------------
+-------------------------------------------HẾT BÀI 12,13,14---------------------------------------------------------
 Bootstrap
 - css framework
 - mobile first
@@ -562,6 +562,96 @@ order-last
     + text-lowercase
     + text-justify
 
+d-inline => display: inline;
+d-inline-block
+d-block
+
+css pre-processor
+
+css/scss => build(compiler) => css
+
+js/typescript => build => js
+
+webpack
 
 Buoi hom sau:
     + npm => cai dat npm
+        + là 1 phần mềm > quản lí các gói javascript
+
+cd (change directory) => thay đổi thư mục
+    + cd (tên thư mục)
+
+-------------------------------------------HẾT BÀI 15---------------------------------------------------------
+Javascript:
+
+- 2 kiểu:
+    + js chạy trên trình duyệt
+    + nodejs => js chạy trên server
+
+
+
+Js cơ bản:
+Đối tượng window:
++ là một đối tượng to nhất trong js
++ chứa toàn bộ code
++ đại diện cho tab trình duyệt
+
+Đối tượng window:
+    + console
+    document => html
+
+biến: 
+    + Là 1 vùng bộ nhớ => lưu trữ dữ liệu
+    + biến thì có tên
+    + có kiểu dữ liệu
+    + Giá trị có thể thay đổi
+    + Các cách khai báo biến:
+        + var [tên biến]
+        + let [tên biến]
+
++ các kiểu dữ liệu:
+    + Number:
+    + String: chuỗi = text
+        + số điện thoại
+    + Boolean: true/ false
+    + Array: mảng
+        + Một biến => lưu được nhiều giá trị 
+        + index: chỉ số
+            + thứ tự
+            + bắt đầu từ 0
+        + phần tử: 1 thành phần con 
+        + tenmang[index]
+    + object: đối tượng
+    + null: biến đã được khai báo, chưa chưa giá trị
+    + undefined: chưa định nghĩa
+
++ function
+    + là một đoạn code được viết riêng ra
+    + thực hiện 1 nhiệm vụ nào đó
+
+    + khai báo hàm:
+        function [ten ham](){
+
+        }
+    + Khai báo hàm giống như khai báo biến:
+        var [ten ham] = hàm không tên
+        var tenham = hàm không tên rút gọn (arrow function)
+    arrow function:
+        + truyền vào dấu ngoặc tròn
+        + nếu chỉ có 1 tham số => không cần ngoặc tròn
+    + hàm không tên:
+        + Thường được dùng để truyền vào hàm
+
+    + hàm chạy khi gọi hàm 
+    + hàm có thể gọi nhiều lần
+    + tham số của hàm
+        + tham số: dữ liệu truyền vào
+        + giá trị mặc định
+
+    + return: đầu ra của hàm
+        + return chỉ trả về 1 lần
+        + các câu lệnh phía sau 
+        arrow function:
+            Nếu như hàm return luôn
+                => không cần dấu {}
+-------------------------------------------HẾT BÀI 16---------------------------------------------------------
