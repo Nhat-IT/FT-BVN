@@ -655,3 +655,76 @@ biến:
             Nếu như hàm return luôn
                 => không cần dấu {}
 -------------------------------------------HẾT BÀI 16---------------------------------------------------------
+Hằng:
+    Giống như biến: là một vùng bộ nhớ
+    + có tên
+    + không thể thay đổi giá trị
+    + const [TEN] = 'asdasd'
+    + STATUS
+
+Các thao tác xử lí sự kiện;
+Number: 
+    + Cộng trừ nhân chia
+    + chia lấy dưới
+    + math
+String:
+    + Lấy ra chiều dài .length
+    + tách chuỗi: split('kí tự chia')
+    + chèn một biến vào biến khác
+    + cắt chuỗi:
+        + substring(start, end);
+        + subStr
+    + indexOf('chuoi con)
+        + Thứ tự
+        + chỉ trả về vị trí đầu tiên
+        + trả về -1 nếu không tồn tại trong chuỗi
+    + lastIndexOf();
+    + includes("")
+Boolean
+Array:
+    + length: số phần tử của mảng
+    + indexOf
+    + lastIndexOf
+    + includes
+    + forEach(fn)
+        + lặp qua từng phần tử của mảng 
+        + mỗi lần lặp => chạy 1 hàm
+        + forEach không có return
+    + map(fn)
+        + trả về 1 mảng
+        + số lượng phần tử bằng số lượng phần tử mảng
+        + sao chép và biến đổi mảng thành 1 mảng khác
+        + 1 phần tử của mảng mới = return của hàm
+    + filter(fn): hàm lọc
+        + nếu fn return true => lấy
+        + nếu fn return false => không lấy
+
+    + push('phần tử')
+        + Thêm vào cuối mảng
+    + unshift() thêm vào đầu mảng
+    + pop() xóa phần tử cuối mảng
+    + shifft() xóa phần tử đầu mảng
+    
+    + join('kí tự') => nối mảng lại
+
+    + reduce( fn(reducer, item), initial value)
+        + chạy hàm liên tiếp, nối đuôi nhau
+        + kết quả của lần chạy trước => đầu vào của lần sau
+
+        + initial value: giá trị đầu tiên
+
+    + some (fn):
+        + có ít nhất 1 lần lặp trả về true
+    + every(fn)
+        + trả về true => tất cả các vòng lặp đều true
+    + slice() => lấy ra phần tử từ vị trí begin đến end
+    + splice() => cắt mảng => ảnh hưởng mảng gốc
+    + reverse() => đảo ngược mảng
+    + shuffle
+
+
+Assign by reference: array, object
+Assign by value: còn lại(string, number, boolean....)
+
+Object
+-------------------------------------------HẾT BÀI 17---------------------------------------------------------

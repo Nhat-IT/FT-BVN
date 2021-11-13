@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script >
+        var mangs = [
+            'nhat',
+            'tai',
+            'ba',
+            'haha',
+            'tai',
+            'ba',
+            'haha'
+        ]
+        console.log(mangs.length);
+        console.log(mangs.indexOf('nhat'));
+        console.log(mangs.lastIndexOf("tai"));
+        console.log(mangs.includes("hi"));
+        var kq1 = mangs.forEach((mang)=>{
+            console.log(mang);
+        });
+        var kq2 = mangs.map((mang)=>{
+            return 'hello' + mang
+        })
+        console.log(kq2)
+        mangs.push('hihi')
+        console.log(mangs)
+        mangs.unshift("hihi")
+        console.log(mangs)
+        console.log(mangs.join("-"))
+
+        var daysos = [
+            1,
+            2,
+            3,
+            4,
+        ]
+        var kq3 = daysos.reduce((tonghientai,tieptheo)=>{
+            return tonghientai + tieptheo
+        },0)
+        console.log(kq3)
+
+        var even = (num) => num % 2 === 0
+        
+        console.log(daysos.some(even))
+    </script>
+</body>
+</html>
