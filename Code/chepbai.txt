@@ -721,10 +721,36 @@ Array:
     + splice() => cắt mảng => ảnh hưởng mảng gốc
     + reverse() => đảo ngược mảng
     + shuffle
-
-
+-------------------------------------------HẾT BÀI 17---------------------------------------------------------
 Assign by reference: array, object
 Assign by value: còn lại(string, number, boolean....)
 
-Object
--------------------------------------------HẾT BÀI 17---------------------------------------------------------
+prototype: nguyên mẫu
+    + thuộc tính con: chứa toàn bộ các hàm nguyên mẫu sau
+    + thêm một method vào prototype
+Lập trình hướng đối tượng:
+
+Object: Đối tượng
+    + Là một kiểu dữ liệu: mô tả một thực thể trong thực tế
+    + vật, con vật
+    + dienThoai, conGa, conCho, ...
+    + Chứa nhiều thuộc tính bên trong (property) Tính từ
+        + truy cập thuộc tính: sử dụng dấu chấm
+        + sử dụng giống mảng
+    + method: hàm: giống function => động từ
+        + Hàm: hoạt động của đối tượng
+        + gọi hàm: sử dụng dấu chấm
+    + constuctor: 
+        là 1 hàm
+            + Hàm đặc biệt: chạy khi object được tạo ra
+    + destructor:
+
+Class và đối tượng:
+    + Class là định nghĩa của đối tượng
+    + this => chính là object hiện tại
+
+    extends: kế thừa
+        một class được tạo ra từ 1 class gốc
+    + super: gọi lên constructor của class cha
+-------------------------------------------HẾT BÀI 18---------------------------------------------------------
+
