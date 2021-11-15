@@ -752,5 +752,22 @@ Class và đối tượng:
     extends: kế thừa
         một class được tạo ra từ 1 class gốc
     + super: gọi lên constructor của class cha
+
+Vòng lặp:
+continue; => gặp lệnh này => bỏ qua
+    - cặp lệnh bên dưới không chạy
+break => thoát vòng lặp
+
+for (biến khởi đầu, điều kiện, ){
+
+}
+
+while(dieu kien){
+
+}
+
+do{
+
+}while(dieu kien)
 -------------------------------------------HẾT BÀI 18---------------------------------------------------------
 
