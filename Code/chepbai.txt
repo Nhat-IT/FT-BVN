@@ -808,4 +808,33 @@ Lấy các thẻ html vào biến:
 + nhiều cái (html collection)
     + getElementByTagName('ten tag')
     + getElementByClassName('ten class')
-    + query
+    + querySelectorAll('css selector')
+
+Tạo ra các thẻ html:
+    + createElement('tên thẻ')
+
+Append:
+    + appendChild: thêm vào thành phần cha( thêm vào cuối)
+        + áp dụng cho tất cả các element
+Xóa bỏ: 
+    + removeChild(element)
+    + replace(element mới, element cũ)
+
+thay đổi thuộc tính css:
+    + style
++ Đặt thuộc tính cho element:
+    + setAttribute
+
++ Lấy thuộc tính:
+    + getAttribute
+
+html collection:
+    + Bộ tập hợp nhiều thẻ html (giống mảng)
+
++ Quản lí class: 
+    + classList.add()
+    + classList.remove()
+    + classList.toggle()
+    + classList.replace(new, old)
+    + classList.contain('tên class') => boolean
+-------------------------------------------HẾT BÀI 19---------------------------------------------------------
