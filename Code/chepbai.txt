@@ -771,3 +771,41 @@ do{
 }while(dieu kien)
 -------------------------------------------HẾT BÀI 18---------------------------------------------------------
 
+=> forEach, map, reduce, filter => không thể break, continue
+for ... in => for (biến of [interables])
+for ... of => lặp qua các thuộc tính của object
+
+Câu điều kiện: if, else, else if
+
+if (điều kiện){
+    // câu lệnh
+}
+else{
+
+}
+
+Điều kiện: truthy/ falsy
+Truthy: đúng  => boolean (true), object, array, chuỗi(có kí tự)
+Falsy: sai => boolean (false), undefined, null, chuối(không kí tự)
+
+Error reporting:
+try 
+catch 
+=> ko kiểm soát được trong đoạn code có thể xảy ra vấn đề gì
+=> có thể chủ động => ném ra một exception
+
+JS DOM:
+DOM: document object model
+=> cách thể hiện của html trong js
+=> mọi thẻ html => object trong js
+
+Viết HTML => trình duyệt => tạo ra một object
+
+Lấy các thẻ html vào biến:
++ lấy ra được 1 cái:
+    + getElementById()
+    + querySelector('css selector')
++ nhiều cái (html collection)
+    + getElementByTagName('ten tag')
+    + getElementByClassName('ten class')
+    + query
