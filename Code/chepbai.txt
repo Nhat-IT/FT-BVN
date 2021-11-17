@@ -838,3 +838,44 @@ html collection:
     + classList.replace(new, old)
     + classList.contain('tên class') => boolean
 -------------------------------------------HẾT BÀI 19---------------------------------------------------------
+Event: sự kiện 
+Hành động => tương tác lên 1 element
+    + click: bấm chuột xuống => thả chuột ra => trong element đó
+    + mousedown: bấm chuột xuống
+    + mouseup: thả chuột ra
+    + mouseover: di chuột vào
+    + mouseout: di chuột ra bên ngoài
+    + onTouchStart
+    + keydown: gõ phím
+    + keyup: thả phím ra
+    + keypress: bấm phím xuống => thả phím ra
+    + focus: 
+    + mousemove
+
+Các sự kiện riêng:
+    + document:
+        + DOMContentLoaded: trang load xong html
+    + image: 
+        + load => ảnh đã tải xong
+        + error: ảnh bị lỗi
+    + input: text, password
+        + keyup
+        + keydown
+        + change
+    + video:
+        + start
+        + ended
+    + location:
+        + locationChange
+
+Cho nhiều element:
+
+
+context của this:
+    function: this => object hiện tại
+    arrow: this => cha
+
+dropdown:
+-------------------------------------------HẾT BÀI 20---------------------------------------------------------
+
+
