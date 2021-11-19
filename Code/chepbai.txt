@@ -894,7 +894,15 @@ Package manager:
 -js: npm
 -php: composer
 - python: pip
-- ruby: getElementByClassName
+- ruby: gem
+
+Gói: 
+    + Gói production: sử dụng trên web: jquery, bootstrap, ...
+    + Gói hỗ trợ dev: khi viết code
+        + debug
+        + eslint
+    + Gói terminal:
+        + là những gói => thêm lệnh vào máy
 
 npm: 
     + là một phần mềm quản lý gói js
@@ -905,12 +913,56 @@ npm:
     + file: package.json
         + thông tin của cả project
         + chứa danh sách các gói
+    + package-log.json
+        + package.json => lock version
+    + node_modules: 
+        + thư mục chứa các thư viện
+        + có thể xóa
     + npm init: khởi tạo một project
     + cài đặt một gói:
         + npm install [ten goi]
         + npm install Jquery
         + npm install bootstrap
         + npm install loadash
+        + npm i loadash
+        + tham số: --save-dev
+        + -g => cài đặt global
+            + cài đặt vào toàn bộ máy
 
+    + npm install
+        + cài đặt theo danh sách gói package.json
 
-vue js: 
+    + xóa gói:
+        + npm remove [ten goi]
+    + chạy trên một script:
+        + npm run [tên script]
+
+vue js:
+    + Framework js:
+    + Khung xương:
+    + cài đặt vuejs: 
+        + vue cli: vue commandline interface
+        + tạo project vuejs
+            + vue create [tên project]
+Cấu trúc thư mục:
++ package.json
++ dist:
+    + thư mục đích
++ public:
+    + thư mục chạy
++ src:
+    + chứa các file nguồn
+    + js/css
+    + main.js
+        => file khởi chạy
+        +app => div goc
+        => root element
++ Mỗi thành phần trên trang web:
+    + thành phần hiển thị (html)
+    + thành phần xử lí (script js)
+    + thành phần định dạng (css)
+
++ Yêu cầu:
+    + cài đặt npm, sử dụng npm
+    + cài đặt được vuejs
+-------------------------------------------HẾT BÀI 22---------------------------------------------------------
