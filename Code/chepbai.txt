@@ -878,4 +878,39 @@ context của this:
 dropdown:
 -------------------------------------------HẾT BÀI 20---------------------------------------------------------
 
+Sau khi học xong event
+Rất nhiều ví dụ: tất cả các web element
 
+Bài tập:
++ tạo dropdown
++ tạo modal
++ image viewer
+-------------------------------------------HẾT BÀI 21---------------------------------------------------------
+Jquery:
+
+Package manager:
+- phần mềm quản lí gói:
+    + package: thư viện, đoạn code => các lập trình viên tạo ra 
+-js: npm
+-php: composer
+- python: pip
+- ruby: getElementByClassName
+
+npm: 
+    + là một phần mềm quản lý gói js
+    + cài đặt npm: cài đạt nodejs
+    + terminal: phần mềm gõ lệnh
+        + thư mục hiện tại
+    + npm -v
+    + file: package.json
+        + thông tin của cả project
+        + chứa danh sách các gói
+    + npm init: khởi tạo một project
+    + cài đặt một gói:
+        + npm install [ten goi]
+        + npm install Jquery
+        + npm install bootstrap
+        + npm install loadash
+
+
+vue js: 
