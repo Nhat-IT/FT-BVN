@@ -966,3 +966,47 @@ Cấu trúc thư mục:
     + cài đặt npm, sử dụng npm
     + cài đặt được vuejs
 -------------------------------------------HẾT BÀI 22---------------------------------------------------------
+JS chung chung:
+    + require, module export
++ES6: phiên bản mới của js
+    + export, import
+
++ export default:
+    + export 1 cái duy nhất
+
+Vue object:
+
+Binding data:
+    + Hiển thị dữ liệu => thành phần xử lí => lên thành phần hiển thị
+    + Lấy dữ liệu từ thành phần hiển thị => thành phần xử lí
+
++ Hiển thị thuộc tính:
+
+data():
+    + return 1 object
+    + các thuộc tính của object => khai báo vào hàm data
+v-model: liên kết thành phần hiển thị với data
+    + input: 
+        + text: string
+        + number: number
+    + checkbox: array
+    + radio:
+v-show:
+    + Hiển thị khi điều kiện đúng
+v-if:
+    + element biến mất
+v-else-if
+v-else:
+
+List rendering:
++ hiển thị một mảng
+    + v-for
+
++ binding:
+    v-bind:[ten thuoc tinh]
+    Viết tắt: hai chấm
++ class and style binding:
+    + bind nhiều class
+
+Trong vuejs: 2 ways binding
+-------------------------------------------HẾT BÀI 23---------------------------------------------------------
