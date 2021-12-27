@@ -1010,3 +1010,18 @@ List rendering:
 
 Trong vuejs: 2 ways binding
 -------------------------------------------HẾT BÀI 23---------------------------------------------------------
+event:
++native event:
+    + v-on:[ten su kien]
+    + viet tat: @
+Methods:
+
+component:
+    + tao ra file .vuejs
+        + root element
+    + Mỗi component có logic xử lí riêng
+    + Đăng kí component
+
+    + style:
+        + scoped
+        + css loader
