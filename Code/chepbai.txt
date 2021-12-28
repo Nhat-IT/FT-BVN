@@ -1026,3 +1026,29 @@ component:
         + scoped
         + css loader
 -------------------------------------------HẾT BÀI 24---------------------------------------------------------
+Vòng đời 1 component:
+lifecycle
+
+Props:
+    - Trong react: props
+    - Tham số truyền vào 1 component
+    - props: giống data
+    2 cách khai báo props:
+        - mảng các tên props
+        - object
+            name
+            default
+            required
+function as props
+    + truyền vào để gọi function cha từ component con
+
+Bài tập
++ Làm màn hình quản lí sinh viên
+    + Thêm sinh viên
+        + mã số sv
+        + tên
+        + giới tính (nam/nữ)
+        + các sở thích
+    + danh sách sinh viên
+    + xóa sinh viên
+-------------------------------------------HẾT BÀI 25---------------------------------------------------------
