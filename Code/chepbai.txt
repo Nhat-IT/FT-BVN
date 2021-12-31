@@ -1052,3 +1052,26 @@ Bài tập
     + danh sách sinh viên
     + xóa sinh viên
 -------------------------------------------HẾT BÀI 25---------------------------------------------------------
+Watch: 
+    các hàm: lắng nghe sự thay đổi của data
+    + cách viết 
+        + viết tên hàm trùng với tên biến
+        + chỉ áp dụng được với các kiểu dữ liệu !== 
+        
+        + object:
+            deep: 
+            handler()
+
+refs:
+    - Xử lí các edge case
+    - react: giống thế
+
+custom event: 
+    - sử dụng component: @TenEvent
+    - trong component: emit('ten su kien')
+
++ Truyền 1 sự kiện từ component này sang component khác
+
+
+slot:
+-------------------------------------------HẾT BÀI 26---------------------------------------------------------
