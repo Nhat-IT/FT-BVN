@@ -23,7 +23,12 @@
     <Dropdown @select="receiveEmit()"/>
     <br><br>
     <Modal :title="'Day la modal'">
-      <div>hello slot</div>
+      <template v-slot:modalContent>
+          <div>hello slot1</div>
+      </template>
+      <template v-slot:modalFooter>
+          <div>hello slot2</div>
+      </template>
     </Modal>
   </div>
 </template>

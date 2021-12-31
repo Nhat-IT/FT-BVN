@@ -1072,6 +1072,7 @@ custom event:
 
 + Truyền 1 sự kiện từ component này sang component khác
 
-
 slot:
+    + Là một vùng trên component
+        => chèn nội dung tùy ý
 -------------------------------------------HẾT BÀI 26---------------------------------------------------------
