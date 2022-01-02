@@ -1076,3 +1076,24 @@ slot:
     + Là một vùng trên component
         => chèn nội dung tùy ý
 -------------------------------------------HẾT BÀI 26---------------------------------------------------------
+
+Filters:
+    + Là các hàm nằm giữa thành phần xử lí và thành phần hiển thị
+    + biến đổi dữ liệu trước khi hiển thị  
+
+Styles:
+
+Vue router:
+Single page web app:
++ cài đặt vue router:
+
++mode:
+    + hash
+    + history
+        + Bộ lưu trữ lịch sử
+
+    + path:
+    + name:
+    + component
+    + props: true => cho phép component nhận tham số
+    -------------------------------------------HẾT BÀI 27---------------------------------------------------------

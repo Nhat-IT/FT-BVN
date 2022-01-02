@@ -1,28 +1,44 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+      <!-- <UseFilter></UseFilter> -->
+
+      <ul>
+        <li><router-link :to="{name: 'inbox'}">Inbox</router-link></li>
+        <li><router-link :to="{name: 'read', params: {id: 1}}">Read</router-link></li>
+        <li><router-link :to="{name: 'draft'}">Draft</router-link></li>
+        <li><router-link :to="{name: 'spam'}">Spam</router-link></li>
+      </ul>
+
+      <div>
+        <div>
+          <router-view></router-view>
+        </div>
+      </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import UseFilter from './components/UseFilter.vue'
 export default {
-  name: 'App',
+  data(){
+    return{
+      
+    }
+  },
   components: {
-    HelloWorld
-  }
+    // UseFilter
+  },
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+}
+ul {
+  list-style-type: none;
+}
+a{
+    text-decoration: none
 }
 </style>
