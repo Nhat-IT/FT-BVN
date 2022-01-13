@@ -1106,4 +1106,37 @@ Các gói sử dụng cùng vue
     - axios
     - async, await, promise, callback
 - vueX
+
+
 -------------------------------------------HẾT BÀI 28---------------------------------------------------------
+Callback, promise, async, await
+
+Hàm đồng bộ:
+    + Block interface
+Bất đồng bộ:
+    + resolve
+        + .then()
+    + reject
+        + .catch()
+
+Promise:
+    + Lời hứa: 
+        + Giữ lời hứa
+        + Cho leo cây
+    + Promise.all([mang cac promise])
+        + Trả về 1 Promise
+            + resolve khi tất cả các promise con đều resolve 
+    
+    + Promise.any([mang cac promise])
+        + Trả về 1 promise
+            + resolve khi có 1 cái thành công
+
+async function
+    + Là 1 hàm kêt quả không đoán định được lúc nào thành công
+    + return một Promise
+
+await: async wait (chờ bất đồng bộ)
+    + Tất cả code phía dưới await chỉ chạy khi promise
+        đã resolve
+    + await [promise]
+-------------------------------------------HẾT BÀI 29---------------------------------------------------------
