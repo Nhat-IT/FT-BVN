@@ -1096,4 +1096,14 @@ Single page web app:
     + name:
     + component
     + props: true => cho phép component nhận tham số
-    -------------------------------------------HẾT BÀI 27---------------------------------------------------------
+-------------------------------------------HẾT BÀI 27---------------------------------------------------------
+Các gói sử dụng cùng vue 
+- boostrap vue
+- vue slick
+- vue pagination
+- axios
+    - viet ajax thuan
+    - axios
+    - async, await, promise, callback
+- vueX
+-------------------------------------------HẾT BÀI 28---------------------------------------------------------
