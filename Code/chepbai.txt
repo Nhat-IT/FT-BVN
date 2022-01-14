@@ -1140,3 +1140,27 @@ await: async wait (chờ bất đồng bộ)
         đã resolve
     + await [promise]
 -------------------------------------------HẾT BÀI 29---------------------------------------------------------
+VueX:
+    - react: redux
+    - Kho dữ liệu chung cho toàn bộ app
+    - Tất cả các component đều có thể lấy dữ liệu từ vuex
+    - store: kho
+
+Sử dụng vuex:
+    + Định nghĩa ra một store
+
+Thay đổi giá trị của state:
+    + tạo một mutation
+    + gọi mutation
+
+
+getters:
+    hàm dùng để lấy ra các giá trị của state
+actions:
+    + hành động
+mutations: reducer
+state:
+
+
+Bài tập: code ứng dụng todo list
+Sử dụng: vueX
