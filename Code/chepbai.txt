@@ -1153,7 +1153,6 @@ Thay đổi giá trị của state:
     + tạo một mutation
     + gọi mutation
 
-
 getters:
     hàm dùng để lấy ra các giá trị của state
 actions:
@@ -1161,6 +1160,16 @@ actions:
 mutations: reducer
 state:
 
-
 Bài tập: code ứng dụng todo list
 Sử dụng: vueX
+-------------------------------------------HẾT BÀI 30---------------------------------------------------------
+=> Thực hành sử dụng vueX + api
++ Create resource
++ list
++ update
++ detail
++ delete
+
+
+resource: post
++ get: lấy thông tin
